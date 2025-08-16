@@ -66,20 +66,6 @@ public class S7 {
 		
 		driver.findElement(By.xpath("//*[@id=\"submitAccount\"]/span")).click();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
