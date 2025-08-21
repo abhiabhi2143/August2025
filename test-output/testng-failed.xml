@@ -1,58 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="chrometest(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Lab9_3">
+      <class name="PageObjectModel.Lab14">
         <methods>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="f" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- TestNG.Lab9_3 -->
-    </classes>
-  </test> <!-- chrometest(failed) -->
-  <test thread-count="2" parallel="tests" name="firefoxtest(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="TestNG.Lab9_3">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="f" invocation-numbers="0"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- TestNG.Lab9_3 -->
-    </classes>
-  </test> <!-- firefoxtest(failed) -->
-  <test thread-count="2" parallel="tests" name="edgetest(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="TestNG.Lab9_3">
-        <methods>
           <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
           <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="f" invocation-numbers="0"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- TestNG.Lab9_3 -->
+      </class> <!-- PageObjectModel.Lab14 -->
     </classes>
-  </test> <!-- edgetest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
