@@ -74,7 +74,8 @@ public class ExcelRetrieve {
 	
 		  data[i][1]=worksheet.getRow(i).getCell(1).getStringCellValue();
 	  }
-	  
+	  workbook.close();
+	  fs.close();
 	  return data;
 	  
     

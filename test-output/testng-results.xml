@@ -1,56 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-21T14:54:21 IST" name="Default suite" finished-at="2025-08-21T14:54:28 IST" duration-ms="6728">
+  <suite started-at="2025-08-23T17:35:40 IST" name="Default suite" finished-at="2025-08-23T17:35:56 IST" duration-ms="16334">
     <groups>
     </groups>
-    <test started-at="2025-08-21T14:54:21 IST" name="Default test" finished-at="2025-08-21T14:54:28 IST" duration-ms="6728">
-      <class name="PageObjectModel.Lab14">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:21 IST" name="beforeSuite" finished-at="2025-08-21T14:54:21 IST" duration-ms="6" status="PASS">
+    <test started-at="2025-08-23T17:35:40 IST" name="Default test" finished-at="2025-08-23T17:35:56 IST" duration-ms="16334">
+      <class name="com.orangehrm.tests.LoginOrangeHRM">
+        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:40 IST" name="setupreport" finished-at="2025-08-23T17:35:40 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:21 IST" name="beforeTest" finished-at="2025-08-21T14:54:21 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setupreport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:40 IST" name="setup" finished-at="2025-08-23T17:35:44 IST" duration-ms="4027" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:21 IST" name="beforeClass" finished-at="2025-08-21T14:54:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:22 IST" name="beforeMethod" finished-at="2025-08-21T14:54:24 IST" duration-ms="2141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:24 IST" name="f" data-provider="dp" finished-at="2025-08-21T14:54:28 IST" duration-ms="3853" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:44 IST" name="verifylogin" data-provider="logindata" finished-at="2025-08-23T17:35:46 IST" duration-ms="1593" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[King]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Burger]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[admin123@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.23456789E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="5">
               <value>
                 <![CDATA[admin123]]>
               </value>
@@ -58,24 +30,64 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:28 IST" name="afterMethod" finished-at="2025-08-21T14:54:28 IST" duration-ms="170" status="PASS">
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:46 IST" name="teardown" finished-at="2025-08-23T17:35:46 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:28 IST" name="afterClass" finished-at="2025-08-21T14:54:28 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:46 IST" name="setup" finished-at="2025-08-23T17:35:50 IST" duration-ms="3473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:28 IST" name="afterTest" finished-at="2025-08-21T14:54:28 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:50 IST" name="verifylogin" data-provider="logindata" finished-at="2025-08-23T17:35:51 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hema]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:PageObjectModel.Lab14@7a8c8dcf]" started-at="2025-08-21T14:54:28 IST" name="afterSuite" finished-at="2025-08-21T14:54:28 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:51 IST" name="teardown" finished-at="2025-08-23T17:35:51 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- PageObjectModel.Lab14 -->
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:51 IST" name="setup" finished-at="2025-08-23T17:35:55 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:55 IST" name="verifylogin" data-provider="logindata" finished-at="2025-08-23T17:35:56 IST" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geeta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:56 IST" name="teardown" finished-at="2025-08-23T17:35:56 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@2de23121]" started-at="2025-08-23T17:35:56 IST" name="flushreport" finished-at="2025-08-23T17:35:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+      </class> <!-- com.orangehrm.tests.LoginOrangeHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
