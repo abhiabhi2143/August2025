@@ -9,7 +9,6 @@ import com.orangehrm.base.BaseTest;
 import com.orangehrm.pages.Login_PageFactory;
 import com.orangehrm.utilities.ExcelUtils;
 import com.orangehrm.utilities.Screenshot;
-import PageObjectModel.Login_pagefactory;
 
 public class LoginOrangeHRM extends BaseTest {
     
