@@ -15,7 +15,7 @@ public class Q3 {
 	  driver =new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("https://www.amazon.in");
-	  driver.findElement(By.xpath("/html/body/div/div[1]/div[3]/div/div/form/div/div/span/span/button")).click();
+	  //driver.findElement(By.xpath("/html/body/div/div[1]/div[3]/div/div/form/div/div/span/span/button")).click();
 	  
 	  driver.findElement(By.id("twotabsearchtextbox")).sendKeys("laptop");
 	  driver.findElement(By.id("nav-search-submit-button")).click();

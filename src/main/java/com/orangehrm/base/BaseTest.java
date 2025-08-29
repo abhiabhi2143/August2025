@@ -25,15 +25,20 @@ public class BaseTest {
 	{
 		extent =ExtentManager.getInstance();
 	}
+	public void navigateUrl(String url)
+	{
+		driver.get(url);
+	}
 	
 	@BeforeMethod
 	  public void setup() {
 		  System.out.println("Before method");
-		  WebDriverManager.chromedriver().setup();
-		  driver=new ChromeDriver();
-		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		  driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		  //WebDriverManager.chromedriver().setup();
+		 // driver=new ChromeDriver();
+		  //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		  //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	  }
+	
 	  @AfterMethod
 	  public void teardown() {
 		  System.out.println("After method");
@@ -44,6 +49,6 @@ public class BaseTest {
 	  @AfterSuite
 	  public void flushreport()
 	  {
-		  
+		  extent.flush();
 	  }
 }

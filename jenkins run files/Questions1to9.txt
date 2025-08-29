@@ -1,0 +1,147 @@
+Started by user Kondeti Abhiram
+Running as SYSTEM
+Building in workspace C:\Users\Abhiram Kondeti\.jenkins\workspace\Question1tjo9
+[Question1tjo9] $ cmd /c call C:\Users\ABHIRA~1\AppData\Local\Temp\jenkins8541286440751537084.bat
+
+C:\Users\Abhiram Kondeti\.jenkins\workspace\Question1tjo9>cd C:\Eclipse\August2025 
+
+C:\Eclipse\August2025>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< AUGUST2025:August2025 >------------------------
+[INFO] Building August2025 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ August2025 ---
+[INFO] Deleting C:\Eclipse\August2025\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ August2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ August2025 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ August2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 13 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ August2025 ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 88 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ August2025 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 29, 2025 12:15:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+LOGIN SUCCESSFUL
+Aug 29, 2025 12:16:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Sponsored
+Lenovo IdeaPad Slim 3, Intel Core i5-12450H 12th Gen, 16GB RAM, 512GB SSD, FHD 250Nits, 14"/35.5cm, Windows 11, MSOffice 21, Grey, 1.37Kg, 83EQ005VIN,1Yr Warranty,Alexa Built-in,3 mon. GamePass Laptop
+702
+50+ bought in past month
+?48,999
+M.R.P:
+?58,900 (17% off)
+Save extra with No Cost EMI
+FREE delivery Fri, 5 Sept
+Service: Device Setup
+Add to cart
++4 other colors/patterns
+
+Sponsored
+MSI Modern 15, Intel 12Th Gen I7-1255U, 40Cm FHD Thin & Light Laptop (16GB/1Tb NVME SSD/Windows 11 Home/Iris Xe Graphics/Classic Black/1.7Kg), B12MO-815IN
+8
+?51,849
+M.R.P:
+?89,990 (42% off)
+Save extra with No Cost EMI
+FREE delivery Fri, 5 Sept
+Only 1 left in stock.
+Service: Device Setup
+Add to cart
+
+Best seller
+HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop
+1,764
+2K+ bought in past month
+?29,790
+M.R.P:
+?45,995 (35% off)
+Prime Savings 3% Off on ICICI Credit CBCCC...
+FREE delivery Sun, 31 Aug
+Or fastest delivery Tomorrow, 30 Aug
+Service: Device Setup
+Add to cart
+
+HP 15s, 12th Gen Intel Core i3-1215U (8GB DDR4, 512GB SSD) Anti-Glare, 15.6"/39.6cm,FHD, Win 11, MS Office 21, Silver, 1.69kg, fy5006tu/fd0751tu/fd0752tu, UHD Graphics, HD Camera, Dual Speakers Laptop
+1,602
+400+ bought in past month
+?32,990
+M.R.P:
+?42,359 (22% off)
+Save extra with No Cost EMI
+FREE delivery Sun, 31 Aug
+Or fastest delivery Tomorrow, 30 Aug
+Service: Device Setup
+Add to cart
+
+Lenovo V15 Intel Core i5 13th Gen 15.6" (39.62 cm) FHD (1920x1080) Antiglare 250 Nits Thin and Light Laptop (8GB RAM/512GB SSD/Windows 11 Home/Iron Grey/1Y Onsite +1Y ADP/1.65 kg), 83CC000EIN
+?46,490
+M.R.P:
+?72,000 (35% off)
+FREE delivery Sun, 31 Aug
+Or fastest delivery Tomorrow, 30 Aug
+Service: Device Setup
+Add to cart
+
+Aug 29, 2025 12:16:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 29, 2025 12:16:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+I am a JS Alert
+Aug 29, 2025 12:16:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Google
+Aug 29, 2025 12:16:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+c2 is already selected
+Aug 29, 2025 12:16:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+John
+Frank
+Jason
+Tim
+jdoe@hotmail.com
+Aug 29, 2025 12:16:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2
+New Window
+Aug 29, 2025 12:17:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.40 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:33 min
+[INFO] Finished at: 2025-08-29T12:17:04+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
